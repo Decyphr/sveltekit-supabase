@@ -8,7 +8,9 @@ const config = {
 		preprocess({
 			scss: {
 				prependData: '@import "src/variables.scss";'
-			}
+			},
+
+			postcss: true
 		})
 	],
 
