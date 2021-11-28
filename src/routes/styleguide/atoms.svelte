@@ -5,65 +5,114 @@
 <Container>
 	<h1>Atoms</h1>
 
-	<a name="colors" />
-	<h2>Colors</h2>
+	<div class="my-8">
+		<h2>Colors</h2>
+		<hr />
 
-	<ul>
-		<li>
-			<span />
-			<span>black</span>
-		</li>
-		<li>
-			<span class="sg-swatch bg white" />
-			<span class="sg-label">white</span>
-		</li>
-		<li>
-			<span class="sg-swatch bg error" />
-			<span class="sg-label">error</span>
-		</li>
-	</ul>
+		<div class="flex align-top py-5">
+			<div class="flex flex-col mx-4">
+				<div class="bg-primary-lt h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Light Primary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-primary-md h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Primary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-primary-dk h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Dark Primary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-secondary-lt h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Light Secondary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-secondary-md h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Secondary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-secondary-dk h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Dark Secondary</div>
+			</div>
+			<div class="flex flex-col mx-4">
+				<div class="sg-swatch bg-error h-20 w-20 rounded-md self-center" />
+				<div class="text-center mt-2">Error</div>
+			</div>
+		</div>
+	</div>
 
-	<a name="fonts" />
-	<h2 class="sg-subheading">Fonts</h2>
+	<div class="my-8">
+		<h2>Fonts</h2>
+		<hr />
+		<div class="p-5">
+			<p>Primary font: "font-name", sans-serif;</p>
+			<p><em>Primary font italic: "font-name", sans-serif;</em></p>
+			<p><strong>Primary font bold: "font-name", sans-serif;</strong></p>
+			<p class="font-serif">Secondary font: "font-name", cursive;</p>
+			<p class="font-serif"><em>Secondary font italic: "font-name", cursive;</em></p>
+			<p class="font-serif"><strong>Secondary font bold: "font-name", cursive;</strong></p>
+		</div>
+	</div>
 
-	<p>Primary font: "font-name", sans-serif;</p>
-	<p><em>Primary font italic: "font-name", sans-serif;</em></p>
-	<p><strong>Primary font bold: "font-name", sans-serif;</strong></p>
-	<p class="font-secondary">Secondary font: "font-name", cursive;</p>
-	<p class="font-secondary"><em>Secondary font italic: "font-name", cursive;</em></p>
-	<p class="font-secondary"><strong>Secondary font bold: "font-name", cursive;</strong></p>
+	<div class="my-8">
+		<h2>Headings</h2>
+		<hr />
+		<div class="p-5">
+			<h1>Heading Level 1</h1>
+			<h2>Heading Level 2</h2>
+			<h3>Heading Level 3</h3>
+			<h4>Heading Level 4</h4>
+			<h5>Heading Level 5</h5>
+			<h6>Heading Level 6</h6>
+		</div>
+	</div>
 
-	<a name="headings" />
-	<h2 class="sg-subheading">Headings</h2>
+	<div class="my-8">
+		<h2>Paragraphs</h2>
+		<hr />
+		<div class="p-5">
+			<p>
+				A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a
+				self-contained unit of a discourse in writing dealing with a particular point or idea. A
+				paragraph consists of one or more sentences. Though not required by the syntax of any
+				language, paragraphs are usually an expected part of formal writing, used to organize longer
+				prose.
+			</p>
+		</div>
+	</div>
 
-	<h1>Heading Level 1</h1>
-	<h2>Heading Level 2</h2>
-	<h3>Heading Level 3</h3>
-	<h4>Heading Level 4</h4>
-	<h5>Heading Level 5</h5>
-	<h6>Heading Level 6</h6>
+	<div class="my-8">
+		<h2>Blockquotes</h2>
 
-	<a name="paragraphs" />
-	<h2 class="sg-subheading">Paragraphs</h2>
-
-	<p>
-		A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a
-		self-contained unit of a discourse in writing dealing with a particular point or idea. A
-		paragraph consists of one or more sentences. Though not required by the syntax of any language,
-		paragraphs are usually an expected part of formal writing, used to organize longer prose.
-	</p>
-
-	<div class="sg-element">
-		<a name="blockquotes" />
-		<h2 class="sg-subheading">Blockquotes</h2>
-
-		<blockquote>Full Quote</blockquote>
-		<blockquote>Left Quote</blockquote>
-		<blockquote>Right Quote</blockquote>
+		<div class="py-5">
+			<blockquote class="position-left">
+				<p>
+					A block quotation (also known as a long quotation or extract) is a quotation in a written
+					document, that is set off from the main text as a paragraph, or block of text, and
+					typically distinguished visually using indentation and a different typeface or smaller
+					size quotation.
+				</p>
+			</blockquote>
+			<blockquote class="position-right">
+				<p>
+					A block quotation (also known as a long quotation or extract) is a quotation in a written
+					document, that is set off from the main text as a paragraph, or block of text, and
+					typically distinguished visually using indentation and a different typeface or smaller
+					size quotation.
+				</p>
+			</blockquote>
+			<blockquote class="w-auto">
+				<p>
+					A block quotation (also known as a long quotation or extract) is a quotation in a written
+					document, that is set off from the main text as a paragraph, or block of text, and
+					typically distinguished visually using indentation and a different typeface or smaller
+					size quotation.
+				</p>
+			</blockquote>
+		</div>
 	</div>
 
 	<div class="sg-element">
-		<a name="text" />
 		<h2 class="sg-subheading">Text</h2>
 
 		<div class="text">

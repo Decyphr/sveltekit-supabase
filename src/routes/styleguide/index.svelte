@@ -1,10 +1,9 @@
 <script>
 	import Container from '$lib/components/styled/Container.svelte';
-	import Heading from '$lib/components/styled/Heading.svelte';
 </script>
 
 <Container>
-	<Heading type="h1">Styleguide</Heading>
+	<h1>Styleguide</h1>
 	<hr />
 	<ul>
 		<li><a href="/styleguide/atoms">Atoms</a></li>

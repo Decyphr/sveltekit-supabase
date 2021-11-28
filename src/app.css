@@ -2,3 +2,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+  @apply mb-2;
+}
+
+h1 {
+  @apply text-7xl;
+}
+
+h2 {
+  @apply text-5xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+h4 {
+  @apply font-normal text-xl uppercase tracking-widest;
+}
