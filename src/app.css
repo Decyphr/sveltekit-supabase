@@ -29,3 +29,12 @@ h3 {
 h4 {
   @apply font-normal text-xl uppercase tracking-widest;
 }
+
+.btn {
+  @apply w-full py-3 mt-10 bg-blue-400 rounded-sm
+  font-medium text-white uppercase transition-all focus:outline-none hover:bg-green-400 hover:shadow-none;
+}
+
+button:disabled {
+  @apply bg-gray-200 hover:bg-gray-200;
+}
